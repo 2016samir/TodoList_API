@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "flowbite/src/themes/default";
+@import 'ngx-toastr/toastr';
+
+@source "../node_modules/flowbite";
+
+body{
+    background-color: rgba(128, 128, 128, 0.2);
+}
